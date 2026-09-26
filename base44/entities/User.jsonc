@@ -1,0 +1,42 @@
+{
+  "properties": {
+    "role": {
+      "type": "string",
+      "description": "The role of the user in the app",
+      "enum": [
+        "admin",
+        "user"
+      ]
+    },
+    "credit_balance": {
+      "type": "number",
+      "default": 50,
+      "description": "AI generation credits"
+    },
+    "plan_tier": {
+      "type": "string",
+      "enum": [
+        "free",
+        "pro"
+      ],
+      "default": "free"
+    },
+    "mode_preference": {
+      "type": "string",
+      "enum": [
+        "live",
+        "demo"
+      ],
+      "default": "demo"
+    },
+    "last_tx_hash": {
+      "type": "string",
+      "description": "Last submitted crypto transaction hash for payment verification"
+    }
+  },
+  "required": [
+    "role"
+  ],
+  "name": "User",
+  "type": "object"
+}

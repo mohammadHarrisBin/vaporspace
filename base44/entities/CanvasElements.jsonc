@@ -1,0 +1,66 @@
+{
+  "name": "CanvasElements",
+  "type": "object",
+  "properties": {
+    "canvas_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "flowchart",
+        "database_erd",
+        "text_note",
+        "ui_wireframe",
+        "image",
+        "landing_page",
+        "presentation",
+        "ad_creative",
+        "video_ad",
+        "tech_stack"
+      ]
+    },
+    "x_pos": {
+      "type": "number"
+    },
+    "y_pos": {
+      "type": "number"
+    },
+    "width": {
+      "type": "number"
+    },
+    "height": {
+      "type": "number"
+    },
+    "z_index": {
+      "type": "number"
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "canvas_id",
+    "type",
+    "x_pos",
+    "y_pos",
+    "width",
+    "height",
+    "payload"
+  ],
+  "rls": {
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "read": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "created_by_id": "{{user.id}}"
+    },
+    "delete": {
+      "created_by_id": "{{user.id}}"
+    }
+  }
+}

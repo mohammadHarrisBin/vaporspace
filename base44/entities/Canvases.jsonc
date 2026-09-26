@@ -1,0 +1,45 @@
+{
+  "name": "Canvases",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "default": "My Amazing Workspace"
+    },
+    "viewport_state": {
+      "type": "object",
+      "properties": {
+        "zoom": {
+          "type": "number"
+        },
+        "panX": {
+          "type": "number"
+        },
+        "panY": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "required": [
+    "user_id",
+    "title"
+  ],
+  "rls": {
+    "create": {
+      "data.user_id": "{{user.id}}"
+    },
+    "read": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "created_by_id": "{{user.id}}"
+    },
+    "delete": {
+      "created_by_id": "{{user.id}}"
+    }
+  }
+}

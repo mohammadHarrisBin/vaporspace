@@ -1,0 +1,32 @@
+# VaporSpace
+
+> Infinite spatial AI canvas for system architects and planners
+
+VaporSpace is a web-based spatial workspace where software architects and project planners generate and organize diagrams, databases, UI wireframes, and tech stacks using integrated AI. It features an infinite panning and zooming canvas, dual demo/live modes, and multi-workspace management.
+
+## Features
+- AI-powered diagram generation (flowcharts, database ERDs, architecture notes)
+- UI wireframe and landing page generation
+- Presentation slide creation
+- Tech stack recommendations
+- Ad creative and video ad generation
+- Infinite spatial canvas with pan, zoom, and drag
+- Multi-workspace management with persistent state
+- Demo mode (free, mocked) and Live mode (credit-based, real AI)
+- Crypto-based credit top-ups (USDC on Solana)
+- Light and dark themes
+
+## Pages
+- / : Main canvas workspace (requires login)
+- /privacy : Privacy Policy
+- /terms : Terms of Service
+- /cookies : Cookie Policy
+
+## Credit System
+- Demo mode is free and uses mocked content
+- Live mode consumes credits per generation
+- Credits can be topped up via crypto (USDC on Solana) or earned by watching ads (3 credits per ad, max 3 ads/day)
+- Admin accounts have unlimited credits
+
+## Contact
+For questions, contact through the VaporSpace app.
