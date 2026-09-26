@@ -1,9 +1,8 @@
-```markdown
 # VaporSpace 🌌
 
 VaporSpace is an infinite spatial AI canvas for system architecture and instant UI blueprinting. It turns high-level prompts into 11 visual canvas nodes, including flowcharts, database ERDs, UI wireframes, tech stacks, and executable PRD prompts.
 
-Live Demo: https://vaporspace.world
+Live Demo: [https://vaporspace.world](https://vaporspace.world)
 
 ---
 
@@ -26,43 +25,32 @@ VaporSpace relies on **Nebius AI Cloud** and **NVIDIA** models to power real-tim
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/mohammadHarrisBin/vaporspace.git](https://github.com/mohammadHarrisBin/vaporspace.git)
-   cd vaporspace
-
+```bash
+git clone https://github.com/mohammadHarrisBin/vaporspace.git
+cd vaporspace
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-
 ```
-
 
 3. Set up environment variables:
 Create a `.env.local` file in the root directory:
 ```env
 VITE_NEBIUS_API_KEY=your_nebius_token_factory_api_key
-VITE_NEBIUS_API_URL=[https://api.tokenfactory.nebius.com/v1](https://api.tokenfactory.nebius.com/v1)
-
+VITE_NEBIUS_API_URL=https://api.tokenfactory.nebius.com/v1
 ```
-
 
 4. Run the development server:
 ```bash
 npm run dev
-
 ```
 
-
-5. Open `http://localhost:5173` in your browser.
+5. Open http://localhost:5173 in your browser.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE&utm_source=gemini).
-
-```
-
-```
+This project is licensed under the [MIT License](LICENSE).
