@@ -26,5 +26,5 @@ VaporSpace relies on **Nebius AI Cloud** and **NVIDIA** models to power real-tim
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/vaporspace.git](https://github.com/your-username/vaporspace.git)
+   git clone [https://github.com/mohammadHarrisBin/vaporspace.git](https://github.com/mohammadHarrisBin/vaporspace.git)
    cd vaporspace
